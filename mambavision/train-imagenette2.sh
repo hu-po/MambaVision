@@ -24,4 +24,7 @@ torchrun --nproc_per_node=1 mambavision/train.py \
     --batch-size $BS \
     --tag $EXP \
     --lr $LR \
-    --class-map ''
+    --class-map '' \
+    --log-interval 1 \
+    --log_dir /mambavision_imagenette2/testrun
+
