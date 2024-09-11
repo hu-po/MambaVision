@@ -47,5 +47,7 @@ conda install numpy=1.24 # downgrade numpy to prevent error
 tensorboard --logdir mambavision_imagenette2/testrun_my_experiment
 ```
 
+https://paperswithcode.com/sota/image-classification-on-imagenette
+
 
 
