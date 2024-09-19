@@ -10,7 +10,7 @@ LR=5e-4
 WD=0.05
 DR=0.2
 
-torchrun --nproc_per_node=1 mambavision/train.py \
+torchrun --nproc_per_node=1 /MambaVision/mambavision/train.py \
     --dataset imagenette2 \
     --data_dir $DATA_DIR \
     --train-split $DATA_PATH_TRAIN \
